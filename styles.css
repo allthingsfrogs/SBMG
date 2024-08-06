@@ -1,0 +1,118 @@
+html {
+  height: 100vh;
+  background-color: rgb(193, 204, 207);
+  overflow-y: scroll; overflow-x:hidden;
+}
+body {
+  position: absolute; 
+}
+.container-fluid {
+  height: 100%;
+  overflow-y: hidden; /* don't show content that exceeds my height */
+  background-color: rgb(230, 231, 231);
+}
+
+.navbar-custom {
+  background-color: rgb(30, 152, 159);
+}
+  
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.navbar-nav > li > a:hover{
+  color: rgb(0, 174, 255);
+}
+  
+.navbar-brand:hover{
+  color: rgb(0, 174, 255) !important;
+}
+  
+.navbar-custom 
+.navbar-toggler {
+  border-color: #3f4344; /* Replace with your desired border color for the toggler button */
+}
+  
+a:link, a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.1s;
+}
+    
+a:hover {
+  color: rgb(0, 174, 255);
+  background-color: transparent;
+  text-decoration: none;
+  transform: translateY(-9px);
+}
+  
+a:active {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.posts {
+    border-color: #3f4344;
+}
+
+.vertical-line {
+  border-left: 4px solid #9a3e00; /* Vertical line as a border */
+  height: 100vh; /* Full viewport height */
+}
+
+/* Images */ 
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image covers the container proportionally */
+}
+
+/* text */
+.open-sans-heading {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 60px;
+  font-variation-settings: "wdth" 100;
+}
+
+.side-text {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.socials {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 16px;
+  color: rgb(66, 66, 91);
+}
+
+.custom-navbar {
+  background-color: crimson;
+}
+
+.nav-link {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 900px) {
+  .side-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .side-text {
+    font-size: 12px;
+  }
+}
+
