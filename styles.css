@@ -22,7 +22,7 @@ body {
 }
 
 .navbar-nav > li > a:hover{
-  color: rgb(0, 174, 255);
+  color: rgb(45, 45, 45);
 }
   
 .navbar-brand:hover{
@@ -43,7 +43,7 @@ a:link, a:visited {
 }
     
 a:hover {
-  color: rgb(0, 174, 255);
+  color: rgb(45, 45, 45);
   background-color: transparent;
   text-decoration: none;
   transform: translateY(-9px);
@@ -57,11 +57,6 @@ a:active {
 
 .posts {
     border-color: #3f4344;
-}
-
-.vertical-line {
-  border-left: 4px solid #9a3e00; /* Vertical line as a border */
-  height: 100vh; /* Full viewport height */
 }
 
 /* Images */ 
@@ -102,6 +97,10 @@ a:active {
 
 .nav-link {
   margin-bottom: 15px;
+}
+
+.nav-collapse .li {
+  list-style-type: none
 }
 
 @media (max-width: 900px) {

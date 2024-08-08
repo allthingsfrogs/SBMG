@@ -20,10 +20,12 @@
   <!--nav bar-->
   <div class="col-12 d-md-none sticky-top custom-navbar">
     <nav class="navbar navbar-dark">
-      <div class="container-fluid custom-navbar">
+      <div class="container-fluid custom-navbar navbar-brand">
+  
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="text-light" style="padding-right: 42%;">SBM</div>
       </div>
     </nav>
     <div class="collapse" id="navbarToggleExternalContent">
@@ -51,31 +53,39 @@
 
 <div class="container-fluid p-0">
   <div class="row">
-    <div class="col-md-4 col-12 image-container p-0">
+    <div class="col-md-4 col-12 image-container p-0 border-end border-danger border-5 d-none d-md-block">
       <img class="img-fluid h-100" src="SBM_About.jpg" alt="Image">
     </div>
-    <div class="col-md-7 col-12 content-container justify-content-center border-start border-danger border-5">
-      <div>
-        <div class="content card p-5 mt-3 mb-4 me-1 ms-3" style="height: auto;">
+    <div class="col-md-4 col-12 image-container p-0 d-block d-sm-none">
+      <img class="img-fluid h-100 border border-danger border-bottom border-4" src="SBM Mobile Banner.jpg" alt="Image">
+    </div>
+    <div class="col-md-7 col-12 content-container justify-content-center mx-auto mt-1">
+      
+        <div class="content card p-5 mt-2 mb-4 mx-auto" style="height: auto; width: auto;">
           
         <div class="row">
           <div class="col-md-12 col-12 content-container justify-content-center">
-            <h1 class="open-sans-heading" style="text-align: center;"><img class="img-fluid" src="SBM Logo.png" style="height: 100px;" alt="Image">South Bay Motorcycle Group</h1>
+
+            <div class="col-md-4 col-12 image-container p-0 d-block d-sm-none">
+              <h1 class="open-sans-heading" style="text-align: center; font-size: 30px;">South Bay Motorcycle Group</h1>
+            </div>
+
+            <!--<h1 class="open-sans-heading" style="text-align: center;"><img class="img-fluid" src="SBM Logo.png" style="height: 100px;" alt="Image">South Bay Motorcycle Group</h1>-->
             <br>
             <p>SBM has a weekly Thursday Bike Night for SF South Bay riders to meet, greet, have a meal, some drinks at a South Bay joint.
               Make riding friends at social nights to plan and go on rides together!</p>
           </div>
-          <div class="col-12 content-container justify-content-center mt-3">
+          <div class="col-12 content-container justify-content-center mt-3 mx-auto">
             <div class="card border-0" style="width: auto;">
               <div class="card-body">
                 <h5 class="card-title" style="text-align: center;">Connect With Us!</h5>
                 <ul class="nav flex-row justify-content-center">
                   <li class="nav-item">
-                    <a href="https://www.facebook.com/groups/396848835662615" target="_blank" rel="noopener noreferrer" class="nav-link text-light me-5">
+                    <a href="https://www.facebook.com/groups/396848835662615" target="_blank" rel="noopener noreferrer" class="nav-link text-light mx-5">
                       <i class="bi-facebook socials fs-3"><span class="socials"> Facebook</span></i></a>
                   </li>
                   <li class="nav-item">
-                    <a href="https://www.instagram.com/southbaymotorcycles/" target="_blank" rel="noopener noreferrer" class="nav-link text-light ms-5">
+                    <a href="https://www.instagram.com/southbaymotorcycles/" target="_blank" rel="noopener noreferrer" class="nav-link text-light mx-5">
                       <i class="bi bi-instagram socials fs-3"><span class="socials"> Instagram</span></i></a>
                   </li>
                 </ul>
@@ -104,7 +114,6 @@
                   sollicitudin euismod nibh. Proin mauris ligula, sagittis vel augue ut, tincidunt fermentum urna. Maecenas ut laoreet odio. Sed lorem nisl, 
                   sollicitudin ut arcu sit amet, molestie condimentum nisl. Maecenas lobortis orci nulla, a eleifend ipsum pharetra et. Etiam dictum tincidunt 
                   mollis. Quisque vel ex quis orci blandit vehicula.</p>
-                  
             </div>
           </div>
         </div>
@@ -115,13 +124,13 @@
         </div>
     
       </div>
-    </div>
+    
     </div>
     
   <!--side bar-->
-  <div class="col-md-1 d-none d-md-block sticky-top" style="height: 100vh;">
-        <div class="d-flex flex-sm-column flex-row flex-nowrap custom-navbar sticky-top" style="height: 1200px;">
-            <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mx-auto text-center justify-content-between w-100 align-items-center">
+  <div class="col-md-1 d-none d-md-block sticky-top border-start border-danger border-5" style="height: 1200px; background-color: rgb(42, 42, 42);">
+        <div class="container-fluid flex-sm-column flex-row flex-nowrap custom-navbar sticky-top">
+            <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mx-auto text-center justify-content-between w-100 align-items-center list-unstyled">
                 <li class="nav-item">
                     <a href="index.html" class="nav-link py-3 px-2 mt-3" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
                         <i class="bi-house fs-3"></i><span class="side-text"> Home</span>            
