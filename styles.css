@@ -11,10 +11,6 @@ body {
   overflow-y: hidden; /* don't show content that exceeds my height */
   background-color: rgb(230, 231, 231);
 }
-
-.navbar-custom {
-  background-color: rgb(30, 152, 159);
-}
   
 .navbar-nav > li{
   padding-left:30px;
@@ -32,6 +28,18 @@ body {
 .navbar-custom 
 .navbar-toggler {
   border-color: #3f4344; /* Replace with your desired border color for the toggler button */
+}
+
+.custom-navbar {
+  background-color: crimson;
+}
+
+.nav-link {
+  margin-bottom: 15px;
+}
+
+.nav-collapse .li {
+  list-style-type: none
 }
   
 a:link, a:visited {
@@ -91,17 +99,13 @@ a:active {
   color: rgb(66, 66, 91);
 }
 
-.custom-navbar {
-  background-color: crimson;
+.quickAbout {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 16px;
 }
 
-.nav-link {
-  margin-bottom: 15px;
-}
-
-.nav-collapse .li {
-  list-style-type: none
-}
 
 @media (max-width: 900px) {
   .side-text {
